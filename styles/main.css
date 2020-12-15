@@ -42,7 +42,7 @@ body {
     background-color: rgba(0, 0, 0, 0.856);
     border-radius: 50%;
     animation: first 5s infinite ease;
-    animation-duration: 7s;
+    animation-duration: 5s;
     opacity: 0;
 }
 
@@ -55,7 +55,7 @@ body {
     background-color: tomato;
     border-radius: 50%;
     animation: second 5s infinite ease;
-    animation-duration: 7s;
+    animation-duration: 5s;
     opacity: 0;
 }
 
@@ -68,7 +68,7 @@ body {
     background-color: yellow;
     border-radius: 50%;
     animation: third 5s infinite ease;
-    animation-duration: 7s;
+    animation-duration: 5s;
     opacity: 0;
 }
 
@@ -81,7 +81,7 @@ body {
     background-color: blue;
     border-radius: 50%;
     animation: fourth 5s infinite ease;
-    animation-duration: 7s;
+    animation-duration: 5s;
     opacity: 0;
 }
 
