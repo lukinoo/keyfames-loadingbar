@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Lobster&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(184, 180, 180, 0.164);
+}
+
+.section {
+    width: 60%;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: rgb(61, 61, 61);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.main-text {
+    position: absolute;
+    top: 15%;
+    font-size: 5rem;
+    font-family: 'Lobster', cursive;
+}
+
+.main-text h3 {
+    text-transform: capitalize;
+    color: rgb(236, 231, 231);
+    animation: text-animation 5s infinite ease;
+}
+
+.first-box {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 50%;
+    left: 30%;
+    background-color: rgba(0, 0, 0, 0.856);
+    border-radius: 50%;
+    animation: first 5s infinite ease;
+    animation-duration: 7s;
+    opacity: 0;
+}
+
+.second-box {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 50%;
+    left: 43%;
+    background-color: tomato;
+    border-radius: 50%;
+    animation: second 5s infinite ease;
+    animation-duration: 7s;
+    opacity: 0;
+}
+
+.third-box {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 50%;
+    left: 56%;
+    background-color: yellow;
+    border-radius: 50%;
+    animation: third 5s infinite ease;
+    animation-duration: 7s;
+    opacity: 0;
+}
+
+.fourth-box {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 50%;
+    left: 69%;
+    background-color: blue;
+    border-radius: 50%;
+    animation: fourth 5s infinite ease;
+    animation-duration: 7s;
+    opacity: 0;
+}
+
+@keyframes first {
+    0% {
+        left: 0;
+    }
+    25% {
+        left: 30%;
+        background-color: rgba(0, 0, 0, 0.856);
+        opacity: 1;
+    }
+    50% {
+        left: 95%;
+        opacity: 0;
+        
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
+@keyframes second {
+    0% {
+        left: 0; 
+    }
+    25% {
+        left: 43%;
+        background-color: tomato;
+        opacity: 1;
+    }
+    50% {
+        left: 95%;
+        opacity: 0;
+    }
+    100% {
+        left: 0;
+    }   
+}
+
+@keyframes third {
+    0% {
+        left: 0;
+    }
+    25% {
+        left: 56%;
+        background-color: yellow;
+        opacity: 1; 
+    }
+    50% {
+        left: 95%;
+        opacity: 0;
+    }
+    100% {
+        left: 0;
+    }
+}
+
+@keyframes fourth {
+    0% {
+        left: 0;
+    }
+    25% {
+        left: 69%;
+        background-color: blue;
+        opacity: 1;
+    }
+    50% {
+        left: 95%;
+        opacity: 0; 
+    }
+    100% {
+        left: 0;
+    }
+}
+
+@keyframes text-animation {
+    0% {
+        letter-spacing: normal;
+    }
+    50% {
+        letter-spacing: 2px;
+    }
+    100% {
+        letter-spacing: normal;
+    }
+}
